@@ -6,3 +6,11 @@ library/build
 .idea/*
 *.iml
 appauth.keystore
+.gradle
+/local.properties
+build
+app/build
+library/build
+.idea/*
+*.iml
+appauth.keystore
