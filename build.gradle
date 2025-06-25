@@ -65,3 +65,14 @@ task showVersion {
         logger.lifecycle("Version Date: " + project.versionDate)
     }
 }
+import org.ajoberstar.grgit.Grgit
+
+apply from: 'config/keystore.gradle'
+
+buildscript {
+    repositories {
+        gradlePluginPortal()
+        google()
+    }
+    dependencies {
+        classpath 'com.
